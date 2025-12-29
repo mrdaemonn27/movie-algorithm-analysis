@@ -25,3 +25,16 @@ Make sure **Python 3.8 or newer** is installed.
 Install required libraries:
 ```bash
 pip install streamlit pandas matplotlib
+```
+
+## How to Run the Application
+Navigate to the project directory:
+```bash
+streamlit run app.py
+```
+
+If the command above causes an error (recommended for Windows):
+```bash
+py -m streamlit run app.py
+```
+
